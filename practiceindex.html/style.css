@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --font-size-sm:10px;
+    --font-size-md:15px;
+    --font-size-lg:20px
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin-top: 2rem;
+}
+.main_container{
+    height: 80px;
+    border: 1px solid red
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+li{
+    text-align: center;
+}
+
+button{
+    background: rgba(0, 101, 254, 1);
+    color: white;
+    width: 142px;
+    height: 44px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px;
+    margin-top: -1rem;
+    outline: none;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    font-family: gilroy-bold;
+    line-height: 94px;
+}
+h3{
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 18px;
+    font-family: Gilroy-Medium;
+    line-height: 28px;
+
+}
+
+button{
+    color: var(--neutral-white, #FFF);
+    text-align: inherit;
+    font-size: 16px;
+    font-family: Gilroy-SemiBold;
+    line-height: 12px;
+}
+
+.container_id{
+    border-radius: 24px;
+    border: 0.5px solid var(--primary-400, #005AE2);
+    background: rgba(254, 254, 254, 0.10);
+    backdrop-filter: blur(106px);
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 16px;
+    font-family: Gilroy-Medium;
+    line-height: 24px;
+
+}
+
+ellipse{
+    border-radius: 956px;
+    background: linear-gradient(180deg, rgba(226, 233, 240, 0.70) 10.68%, rgba(220, 228, 235, 0.70) 44.01%, rgba(226, 233, 240, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(18, 36, 89, 0.35);
+}
+.hero{
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.hero_container{
+    display: flex;
+    justify-content: space-around;
+}
+.space_id{
+    color: #141414;
+    font-size: 40px;
+    font-family: Gilroy-Bold;
+    line-height: 48px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 72px;
+
+    color: var(--text-color-main-text, #141414);
+    font-size: 32px;
+    font-family: Gilroy-SemiBold;
+    line-height: 40px;
+
+    color: var(--text-color-main-text, #141414);
+    font-size: 16px;
+    font-family: Gilroy-Medium;
+    line-height: 24px;
+}
+
+.data_container{
+    display: inline-flex;
+    padding: 0px 0px 130px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 128px;
+    display: flex;
+
+    color: #141414;
+    font-size: 40px;
+    font-family: Gilroy-Bold;
+    line-height: 32px;
+
+    color: var(--text-color-main-text, #141414);
+    font-size: 16px;
+    font-family: Gilroy-Medium;
+    line-height: 28px;
+}
+h5{
+    color: #141414;
+text-align: center;
+font-size: 30px;
+font-family: Gilroy-Bold;
+line-height: 48px;
+
+}
+
+.circle.id{
+    display: inline-flex;
+padding: 24px 98px 45px 87px;
+flex-direction: column;
+align-items: flex-start;
+gap: 34px;
+align-content: space-evenly;
+color: var(--text-color-main-text, #141414);
+text-align: left;
+font-size: 24px;
+font-family: Gilroy-Medium;
+line-height: 32px;
+
+    border-radius: 12px;
+    vertical-align: var(--font-size-lg);
+    vertical-align: var(--font-size-md);
+    vertical-align: var(--font-size-sm);
+    grid-row: 10rem;
+    background: var(--linear-gradient, linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%));
+}
+
+.question-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+}
+.question-btn{
+    background: none;
+    border: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+}
+.question {
+    padding: 0.7rem;
+    border-bottom: 1px dotted #d6d6d6;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+body{
+    font-family: 'Inter', sans-serif; */
+    font-family: 'gilroy-medium', sanserif;
+    line-height: 1.5;
+}
+
+:host, :root{
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root{
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host :root{
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+.fa-add:before, .fa-plus:before {
+    content: "\2b";
+}
+.fa-solid, .fas {
+    font-weight: 900;
+}
+
+.fa-lg {
+    font-size: 1.25em;
+    line-height: .05em;
+    vertical-align: -.075em;
+}
+
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    font-family: "Font Awesome 6 Free";
+}
+
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+button {
+    
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    cursor: default;
+}
+
+.question {
+    padding: 0.7rem;
+    border-bottom: 1px dotted #d6d6d6;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+.question-header-title {
+    font-size: 1.25rem;
+    @media screen and (min-width: 950px)
+}
+
+h1, h2, h3, h4 {
+    font-family: 'gilroy-bold', sanserif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.question {
+    padding: 0.7rem;
+    border-bottom: 1px dotted #d6d6d6;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+body {
+    font-family: 'gilroy-medium', sanserif;
+    line-height: 1.5;
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+.question-header-title {
+    font-size: 1.1rem;
+}
+
+article {
+    display: block;
+}
+
+.question-btn {
+    background: none;
+    border: none;
+}
+
+button {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+}
+ul{
+    display: flex;
+    gap:2rem
+}
+span{
+    color:blue
+}
+
+
+.price{
+    width:10rem;
+    height: 10rem;
+    border: 1px solid blue;
+}
+.prices{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.sec{
+    width: 50rem;
+    height: 5rem;
+    
+    margin-top: 3rem;
+    margin: 0 auto;
+}
+
+#up{
+    transform: translateY(-2rem);
+}
