@@ -144,6 +144,11 @@ ellipse{
     font-family: Gilroy-Medium;
     line-height: 28px;
 }
+.data_id{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 h5{
     color: #141414;
 text-align: center;
